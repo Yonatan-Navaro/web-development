@@ -1,0 +1,15 @@
+{
+  "folders": [
+	{
+		"name": "project 1 - personal site HTML",
+		"path": "."
+	},
+	{
+		"name": "Project 2 Table",
+		"path": "../Project 2 Table"
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "Project 2 Table"
+  }
+}
