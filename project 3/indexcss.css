@@ -1,17 +1,101 @@
-h1 {
-  text-shadow: 0px 10px 4px rgb(165, 162, 162);
-  color: rgb(24, 24, 24);
-  text-size-adjust: 80px 50px;
+body {
+font-size: 30px;
+
+  background-color: #747474;
+  opacity: 0.9;
+  background: radial-gradient(
+      circle,
+      transparent 20%,
+      #747474 20%,
+      #747474 80%,
+      transparent 80%,
+      transparent
+    ),
+    radial-gradient(
+        circle,
+        transparent 20%,
+        #747474 20%,
+        #747474 80%,
+        transparent 80%,
+        transparent
+      )
+      47.5px 47.5px,
+    linear-gradient(
+        #acacac 3.8000000000000003px,
+        transparent 3.8000000000000003px
+      )
+      0 -1.9000000000000001px,
+    linear-gradient(
+        90deg,
+        #acacac 3.8000000000000003px,
+        #747474 3.8000000000000003px
+      ) -1.9000000000000001px 0;
+  background-size: 95px 95px, 95px 95px, 47.5px 47.5px, 47.5px 47.5px;
+
+  color: white;
+  text-align: center;
+  filter: drop-shadow(1px 5px 6px #474747);
+
 }
 
-#Main {
-  text-shadow: 0px 0px 2px rgb(133, 133, 133);
+h1{
+    font-size: 80px;
+    filter: drop-shadow(1px 5px 6px #474747);
 }
-#Skills{
-  font-style: italic;
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
-  ;
+h2{
+    font-size: 50px;
+    filter: drop-shadow(1px 5px 6px #474747);
 }
-#allsite{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+hr {
+    filter: drop-shadow(1px 5px 6px #474747);
+    
+}
+
+
+table {
+    width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul {
+  display: table;
+  margin: 0 auto;
+}
+
+#avatar {
+  background-image: url(./img/me_01.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 20vw;
+  width: 20vw;
+  border-radius: 50%;
+  border: 10px solid rgb(255, 255, 255);
+}
+
+#font_style {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#background {
+  color: violet;
+}
+
+
+#title {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  text-align: center;
+  font-size: 72px ;
+  color: #474747;
+  -webkit-text-stroke: 2px rgb(255, 255, 255);
+}
+
+.tleft {
+
+    text-align: left;
+}
+
+#impactstyle {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
