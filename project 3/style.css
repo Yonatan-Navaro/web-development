@@ -63,22 +63,32 @@ ul {
   margin: 0 auto;
 }
 
+picture.scale {
+  overflow: hidden;
+  padding: 5px;
+  border: 1px solid #000000;
+  width: 480px;
+  height: 270px;
+}
+
 #avatar {
-  background-image: url(./img/me_01.jpeg);
-  background-size: cover;
-  background-position: center;
-  height: 20vw;
-  width: 20vw;
+  overflow: hidden;
+  padding: 5px;
+  border: 1px solid #000000;
+  width: 480px;
+  height: 270px;
+  background-image: url(./img/me_01_A.png);
+  background-color: #474747;
+  background-size: 200%;
+  background-position: 50% 45%;
+  height: 30vw;
+  width: 30vw;
   border-radius: 50%;
   border: 10px solid rgb(255, 255, 255);
 }
 
 #font_style {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-}
-
-#background {
-  color: violet;
 }
 
 #title {
