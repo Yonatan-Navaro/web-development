@@ -1,6 +1,5 @@
 body {
-  
-font-size: 30px;
+  font-size: 30px;
 
   background-color: #747474;
   opacity: 0.9;
@@ -36,28 +35,25 @@ font-size: 30px;
   color: white;
   text-align: center;
   filter: drop-shadow(1px 5px 6px #474747);
-
 }
 
-h1{
-    font-size: 80px;
-    filter: drop-shadow(1px 5px 6px #474747);
+h1 {
+  font-size: 80px;
+  filter: drop-shadow(1px 5px 6px #474747);
 }
-h2{
-    font-size: 50px;
-    filter: drop-shadow(1px 5px 6px #474747);
+h2 {
+  font-size: 50px;
+  filter: drop-shadow(1px 5px 6px #474747);
 }
 
 hr {
-  border-radius: 100% ;
-  border: 5px solid rgb(255, 255, 255) ;
-    filter: drop-shadow(1px 5px 6px #474747);
-    
+  border-radius: 100%;
+  border: 5px solid rgb(255, 255, 255);
+  filter: drop-shadow(1px 5px 6px #474747);
 }
 
-
 table {
-    width: 50%;
+  width: 50%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -85,30 +81,26 @@ ul {
   color: violet;
 }
 
-
 #title {
-    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   text-align: center;
-  font-size: 72px ;
+  font-size: 72px;
   color: #474747;
   -webkit-text-stroke: 2px rgb(255, 255, 255);
 }
 
 .tleft {
-
-    text-align: left;
+  text-align: left;
 }
 
 #impactstyle {
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 #borderbox {
-
   width: 320px;
   padding: 10px;
-  border: 5px solid rgb(137, 0, 0);
+  border: 5px solid rgb(255, 255, 255);
   border-radius: 5%;
   margin: 0;
-  
 }
