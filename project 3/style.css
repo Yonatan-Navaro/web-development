@@ -48,6 +48,8 @@ h2{
 }
 
 hr {
+  border-radius: 100% ;
+  border: 5px solid rgb(255, 255, 255) ;
     filter: drop-shadow(1px 5px 6px #474747);
     
 }
@@ -98,4 +100,14 @@ ul {
 
 #impactstyle {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#borderbox {
+
+  width: 320px;
+  padding: 10px;
+  border: 5px solid rgb(255, 255, 255);
+  border-radius: 5%;
+  margin: 0;
+  
 }
