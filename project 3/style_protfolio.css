@@ -1,0 +1,84 @@
+body {
+  background: rgb(120, 116, 204);
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(209,255,143,1) 0%, rgba(0,212,255,1) 100%);
+  
+  color: white;
+  text-align: center;
+  filter: drop-shadow(1px 5px 6px #e9ff9b);
+}
+
+h1 {
+  font-size: 50px;
+  filter: drop-shadow(1px 5px 6px #1ccaff);
+}
+
+h2 {
+  
+  font-size: 50px;
+  filter: drop-shadow(1px 5px 6px #1ccaff);
+}
+
+hr {
+  border-radius: 100%;
+  border: 5px solid rgb(255, 255, 255);
+  filter: drop-shadow(1px 5px 6px #1ccaff);
+}
+
+table {
+  font-size: 25px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul {
+  font-size: 45px;
+  display: table;
+  margin: 0 auto;
+}
+
+#avatar {
+  overflow: hidden;
+  padding: 5px;
+  border: 1px solid #000000;
+  width: 480px;
+  height: 270px;
+  background-image: url(./img/me_01_A.png);
+  background-color: #62ff53;
+  background-size: 200%;
+  background-position: 50% 45%;
+  height: 20vw;
+  width: 20vw;
+  border-radius: 50%;
+  border: 10px solid rgb(255, 255, 255);
+}
+
+#font_style {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+#title {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  text-align: center;
+  font-size: 72px;
+  color: #474747;
+  -webkit-text-stroke: 2px rgb(255, 255, 255);
+}
+
+.tleft {
+  text-align: left;
+}
+
+#impactstyle {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+#borderbox {
+  color: #000000;
+  background-color: aliceblue;
+  width: 320px;
+  padding: 10px;
+  border: 5px solid rgb(255, 255, 255);
+  border-radius: 5%;
+  margin: 0;
+}
