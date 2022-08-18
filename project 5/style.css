@@ -1,0 +1,63 @@
+body {
+  text-align: center;
+
+  margin: 0;
+  padding: 0;
+}
+
+div.upper-page {
+  border: 0px;
+  background-color: rgb(100, 162, 238);
+  height: 500px;
+}
+
+hr {
+  margin-top: 0px;
+  border: none;
+  height: 12px;
+  background: rgb(57, 66, 244);
+  box-shadow: 0px 5px 10px rgb(141, 141, 141);
+}
+h1 {
+  position: relative;
+  top: 120px;
+  color: rgb(133, 212, 255);
+  text-shadow: 0px 1px 1px rgb(255, 255, 255);
+  margin-top: 0px;
+}
+
+p {
+  color: rgb(255, 255, 255);
+  position: relative;
+  top: 120px;
+}
+
+img.img1 {
+  content: url(https://icon-library.com/images/development-icon-png/development-icon-png-25.jpg);
+}
+img.img2 {
+  position: ob;
+  display: block;
+  left: 50px;
+  content: url(https://icon-library.com/images/development-icon-png/development-icon-png-25.jpg);
+}
+
+img.gif {
+  position: relative;
+  content: url(https://c.tenor.com/pBrzvwLzbwoAAAAi/hacking-hack.gif);
+  width: 100px;
+  top: 200px;
+  align-items: center;
+}
+
+#img-fillter-position {
+  -webkit-filter: invert();
+  position: relative;
+  bottom: 3%;
+  opacity: 50%;
+}
+
+#img-ctrl {
+  position: absolute;
+  border: 1px solid red;
+}

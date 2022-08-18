@@ -14,7 +14,7 @@ body {
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 50px ;
   filter: drop-shadow(1px 5px 1px #1ccaff);
 }
 
@@ -28,6 +28,9 @@ table {
   width: 50%;
   margin-left: auto;
   margin-right: auto;
+  width: 50px;
+  
+  
 }
 
 ul {
@@ -36,13 +39,6 @@ ul {
   margin: 0 auto;
 }
 
-#title {
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  text-align: center;
-  font-size: 72px;
-  color: #474747;
-  -webkit-text-stroke: 2px rgb(255, 255, 255);
-}
 
 .tleft {
   width: 20%;
@@ -64,6 +60,10 @@ hr {
   box-shadow: inset 0 12px 12px -12px rgba(250, 131, 131, 0.5);
 }
 
+div{
+  padding-bottom: 25px;
+}
+
 #avatar {
   overflow: hidden;
   padding: 5px;
@@ -79,3 +79,4 @@ hr {
   border-radius: 50%;
   border: 10px solid rgb(255, 255, 255);
 }
+
